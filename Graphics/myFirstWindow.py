@@ -1,3 +1,7 @@
+# All user interface object inherit the QWidget class
+# we can modify those built in features by inheriting QWidget class
+
+
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton
 from PyQt5.QtWidgets import QMessageBox
