@@ -1,5 +1,6 @@
-# ----------------------------------------------
+# ------------------------------------------------
 # Author: Amit Kachroo <amit.kachroo@okstate.edu>
+# -------------------------------------------------
 
 import distibutionFitting as distFit
 import numpy as np
