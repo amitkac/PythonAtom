@@ -1,3 +1,6 @@
+
+# ----------------------------------------------
+# Author: Amit Kachroo <amit.kachroo@okstate.edu>
 # log likelihood assumes that each data point is generated independently
 # of other data points.
 # The reason why we take loglikelihood is that because logarithmic functions
@@ -13,7 +16,7 @@ import scipy.stats as ss
 
 
 class Fitting(object):
-    ''' This class fits the differnt distributions by utilizing the statsmodels
+    ''' This class fits the different distributions by utilizing the statsmodels
     library'''
 
     def __init__(self, data, fitType='Normal'):
