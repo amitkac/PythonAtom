@@ -1,5 +1,5 @@
 
-# ----------------------------------------------
+# -------------------------------------------------------------
 # Author: Amit Kachroo <amit.kachroo@okstate.edu>
 # log likelihood assumes that each data point is generated independently
 # of other data points.
@@ -11,6 +11,7 @@
 # /using-properties-in-python-classes-cause-maximum-recursion-depth-exceeded
 
 # import statsmodels.api as sm
+# ---------------------------------------------------------------
 import numpy as np
 import scipy.stats as ss
 
