@@ -43,6 +43,8 @@ class Notepad(QWidget):
                 getText = self.text.toPlainText()
                 fin.write(getText)
         except:
+            # log exceptions here
+            print('closing the window\n')
             pass
 
     def openTxt(self):
