@@ -21,7 +21,7 @@ class Project(QWidget):
         tabwidget.addTab(self.text, "Start")
         tabwidget.addTab(label2, "Fitting Subplots")
         layout.addWidget(tabwidget, 0, 0)
-        self.setGeometry(61024, 800, 800, 600)
+        self.setGeometry(1024, 800, 800, 600)
         self.setWindowTitle('StatModel')
         self.initUi()
 
